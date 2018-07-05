@@ -1,0 +1,13 @@
+# Mongo Installation
+
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+# To start MongoDB
+ sudo service mongod start
+
+ #To open mongo-shell 
+ mongo --host 127.0.0.1:27017
+
+ #shell commands
+ use mern_shopping
+ db.items.find().pretty()
